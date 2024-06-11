@@ -9,8 +9,7 @@
   </div>
   <div class="footer-info">
     {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }}
-    Built with <a href="https://gohugo.io">Hugo</a> | Served from
-    <a href="https://netlify.com">Netlify</a>
+    Built with <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>
 {{ if not .Site.IsServer }} {{ template "_internal/google_analytics.html" . }}
